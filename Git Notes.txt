@@ -1,9 +1,24 @@
 Git notes:
 git init //to add git to a project
-git status //to check status of branch
-git log //to get all commits and changes 
+
+git status //to check if there is anything to commit; any changes have been made to the file
+git log //to see all commits made and changes 
+
 git add filename.html //to put in staging mode
 git add . //to put everything with changes to stagging mode
 git commit -m "comment on commit" //to a commit changes
+
+A branch is for trying new things on top of the master without affecting the master
+
+git branch //check which branch is on right now
 git branch nameofbranch //to create a new branch
-git checkout nameofbranch //move to branch
+
+git checkout hashcode448dbd7d55c6bc66238506 //to go to a previous commit; you cna get the hashcode of commits from log
+git checkout nameofbranch //changing to branch
+
+git merge nameofbranch //merge branch to master
+
+git remote -v //check if its connected to an online repo
+git remote add origin https://linktorepo //add a remote;online repo (with link) as origin (origin is what you name it can change this)
+git push -u origin master //push a branch to the origin; means the same thing as uploading the files to the orgin
+git pull orgin master //pull the changed /modified branch from the orgin; means the same thing as downloading changes to files from origin
