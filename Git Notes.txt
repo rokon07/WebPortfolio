@@ -22,3 +22,12 @@ git remote -v //check if its connected to an online repo
 git remote add origin https://linktorepo //add a remote;online repo (with link) as origin (origin is what you name it can change this)
 git push -u origin master //push a branch to the origin; means the same thing as uploading the files to the orgin
 git pull orgin master //pull the changed /modified branch from the orgin; means the same thing as downloading changes to files from origin
+
+Fork on Github allows to make your own version of other reposotories so you chnage stuff without
+It gives you your own version of the repo and gives you a link to clone
+
+git clone https://github/rokon07/nameofrepo //get this link from the fork button; this will download the files of the repo to local machine
+then you can commit changes and if you click on the commits on github you can request a pull request
+
+pull request //means you are asking the github repo to accept your changes which you committed on your fork version of the repo
+similarly if you host a public repo and get push request from others you can merge to master
