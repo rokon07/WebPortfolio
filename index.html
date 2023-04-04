@@ -4,12 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Git Demo page</h1>
-    <h2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</h2>
+    <header>
+      <a class="name" href="aboutme.html">Mohd Rokon</a>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="" style="color: #0088a9;">Projects</a></li>
+          <li><a href="#">Art</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <div class="line"></div>
+
+
+    <div class="main">
+      <h2 style="color: #edf0f1; text-align: center;">Click on Project thumbnail or discription to view Project.</h2>
+      <div class="pro1">
+        <a href="flightWriteUp.html"><img class="pro_thumb" src="projectThumbnails/fly.jpg" href="flightWriteUp.html" alt=""></a>
+        <div class="pro_text">
+          <h2>Flight price Tracker</h2><br>
+          <a href="flightWriteUp.html">
+            Full stack web application that allows users to search for flights tickets prices for all airlines available based on query.
+            Web application designed using HTML and CSS. Application hosted on AWS with backed programmed in JavaScript using Skyscanner API 
+            
+          </a>
+        </div>
+      </div>
+
+
+      <div class="pro1">
+        <a href="ezsearchWriteUp.html"><img class="pro_thumb" src="projectThumbnails/search.jpg" alt=""></a>
+        <div class="pro_text">
+          <h2>Ezsearchonline.com</h2><br>
+          <a href="ezsearchWriteUp.html">Full stack web search application that allows users to search for used and new goods from multiple e-commerce websites in one place where they can be sorted as desired.
+            Web application designed using HTML and CSS. Application hosted on AWS with backed programmed in JavaScript using Node.js framework and Cheerio API
+          </a>
+        </div>
+      </div>
+
+
+      <div class="pro1">
+        <a href="passportWriteUp.html"><img class="pro_thumb" src="projectThumbnails/passport.jpg"></a>
+        <div class="pro_text">
+          <h2>Embassy application Tracker</h2><br>
+          <a href="passportWriteUp.html">Web application designed for the Embassy for the Bangladesh; used for internal application tracking for visas, Passports, IDs.
+            Front end deisgned with HTML, CSS; Backend written in JavaScript; Data stored in NoSQL DB (Firebase) ans Hosted on AWS
+          </a>
+        </div>
+      </div>
+
+
+      <div class="pro1">
+        <a href="colorWriteUp.html"><img class="pro_thumb" src="projectThumbnails/color.jpg" alt=""></a>
+        <div class="pro_text">
+          <h2>Color Blob Detection on image</h2><br>
+          <a href="colorWriteUp.html">Computer Vision Program using Java highlights the biggest blob of color given in an image.
+            Algorithm takes all pixels of given color and puts them in sets. 
+            It then compares all the sets to get the largest set to identify the largest blob of the given color.
+          </a>
+        </div>
+      </div>
+      
+
+      <div class="pro1">
+        <a href="encryptionWriteUp.html"><img class="pro_thumb" src="projectThumbnails/lock.jpg" alt=""></a>
+        <div class="pro_text">
+          <h2>Text in Image Encryptor & Decryptor</h2><br>
+          <a href="encryptionWriteUp.html">Program that encrypts given text into any given image. The text can also be decrypted from an image using this program.
+            Encryption and decryption are done using bit manipulation of image data. Encryption and decryption are done using bit manipulation of image data
+          </a>
+        </div>
+      </div>
+
+
+      <div class="pro1">
+        <a href="aerohabWriteUp.html"><img class="pro_thumb" src="projectThumbnails/drone.jpg" alt=""></a>
+        <div class="pro_text">
+          <h2>AeroHAB-4</h2><br>
+          <a href="aerohabWriteUp.html">Project for Software Engineering Course where Objective was to deploy a drone using an air balloon to survey and take pictures of the sky. 
+                    Responsible for developing software scripts to capture live image and video 
+                    streaming to flight and telemetry teams for the drone maneuvering.
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="line_bottom"></div>
+
+    <footer>
+      <a>© Rokon, 2023</a>
+      <ul class="social_links">
+        <li><a href="https://www.linkedin.com/in/mohdrokon/">LinkedIn</a></li>
+        <li><a href="https://github.com/rokon07">Github</a></li>
+      </ul>
+      </nav>
+    </footer>
+    
 	<script src="app.js"></script>
   </body>
+
 </html>

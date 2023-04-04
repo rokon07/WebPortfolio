@@ -1,0 +1,94 @@
+<!--
+Author: Mohd Rokon
+Date: 5/27/2020
+Version 1.0
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Passport Database App</title>
+  </head>
+
+  <body>
+    <header><h1>Passport Database App</h1></header>
+
+    <div class= "middle">
+    <div id="submitData">
+      <h2>Input Data</h2>
+        <div class="input">
+          <label>First Name: </label>
+          <input type="text" name="firstName" id="firstName" placeholder="Enter first name ...">
+        </div>
+        <div class="input">
+          <label>Last Name: </label>
+          <input type="text" name="lastName" id="lastName" placeholder="Enter last name ...">
+        </div>
+        <div class="input">
+          <label>Date of Birth: </label>
+          <input type="date" name="dob" id="dob">
+        </div>
+        <div class="input">
+          <label>Email address: </label>
+          <input type="text" name="email" id="email" placeholder="Enter email address ...">
+        </div>
+
+        <div class="input">
+          <label>Choose Status: </label>
+          <select type="text" id="status" name="status">
+            <option value="Visa">Visa</option>
+            <option value="Passport">Passport</option>
+            <option value="No visa required">No visa required</option>
+            <option value="Travel Permit">Travel Permit</option>
+            <option value="Dual Nationaloty Certificate">Dual Nationaloty Certificate</option>
+          </select>
+        </div>
+        <button type="submit" id="submitButton" name="btn">Submit Data</button>
+        <div>
+          <div id="duplicate">
+
+        </div>
+        </div>
+    </div>
+    <div id="retrieveData">
+      <h2>Retrieve Data</h2>
+      <div class="input">
+        <label>First Name: </label>
+        <input type="text" name="getFirstName" id="getFirstName" placeholder="Enter first name ...">
+      </div>
+      <div class="input">
+        <label>Last Name: </label>
+        <input type="text" name="getLastName" id="getLastName" placeholder="Enter last name ...">
+      </div>
+      <div class="input">
+        <label>Email address: </label>
+        <input type="text" name="getEmail" id="getEmail" placeholder="Enter email address ...">
+      </div>
+      <button type="submit" id="getButton" name="btn">Get Data</button>
+
+      <div id="result">
+        Retrieved Data:
+        <div id="query">
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+    <script src="app.js"></script>
+  </body>
+  <footer class="copy">
+      © Mohd Rokon
+    </footer>
+</html>

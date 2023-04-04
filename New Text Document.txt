@@ -1,9 +1,0 @@
-Git notes:
-git init //to add git to a project
-git status //to check status of branch
-git log //to get all commits and changes 
-git add filename.html //to put in staging mode
-git add . //to put everything with changes to stagging mode
-git commit -m "comment on commit" //to a commit changes
-git branch nameofbranch //to create a new branch
-git checkout nameofbranch //move to branch

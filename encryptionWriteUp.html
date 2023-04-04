@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Encryption Project</title>
+    <link rel="stylesheet" href="style_about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a class="name" href="aboutme.html">Mohd Rokon</a>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="index.html" style="color: #0088a9;">Projects</a></li>
+          <li><a href="#">Art</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <div class="line"></div>
+
+
+    <div class="main">
+
+      <div class="pro1_about">
+        <div class="pro_text">
+          <h2>Text in Image Encryptor</h2><br>
+          <a>The program that encrypts given text into any given image is a useful tool for secure communication. This program uses an image to store the encrypted message, making
+             it difficult for anyone to intercept and read the message. The program can also decrypt the encrypted message from the image using bit manipulation of image data. It is written in C on VIM.
+          </a>
+          <br><br>
+          <img src="encryption/encryption_img.png" style="width: 1000px; border-radius: 10px;">
+          <br><br><br>
+          <h2>Application process walkthrough</h2>
+          <br>
+          <a href="">
+           The encryption and decryption processes are done using bit manipulation of image data. This technique involves modifying the least significant bits of each pixel in the image.
+            Each pixel in an image is composed of three color values: red, green, and blue. By modifying the least significant bits of each color value, the program can encode the encrypted
+             message into the image without changing the image's appearance significantly.
+            <br><br>
+            To encrypt a message, the program converts the message into binary form and splits it into small chunks. Each chunk is then encoded into the least significant bits of the image's pixels.
+             The program modifies the bits in a specific pattern, ensuring that the changes are imperceptible to the human eye. Once the message is encoded, the image is saved with a different file 
+             name or in a different location.
+             <br><br>
+            To decrypt the message, the program reads the image and extracts the least significant bits of each pixel. The program then reassembles the bits to recover the binary message, which is 
+            then converted back into the original text format.
+            Overall, the program that encrypts given text into any given image is an effective way to secure communication. The technique of using bit manipulation of image data makes the process 
+            of encryption and decryption seamless and imperceptible to the human eye. The program can be used for a variety of purposes, such as protecting sensitive information, transmitting confidential messages, or simply for fun.
+            </a>
+        </div>
+        <br><br>
+        <a href=""><h3> View this project </h3></a>
+    </div>
+    </div>
+
+    <footer class="foot_about_projects">
+      <a href="">© Rokon, 2023</a>
+      <ul class="social_links">
+        <li><a href="https://www.linkedin.com/in/mohdrokon/">LinkedIn</a></li>
+        <li><a href="https://github.com/rokon07">Github</a></li>
+      </ul>
+      </nav>
+    </footer>
+    
+	<script src="app.js"></script>
+  </body>
+
+</html>

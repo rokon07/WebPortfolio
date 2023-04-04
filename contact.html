@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles_contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a class="name" href="aboutme.html">Mohd Rokon</a>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="index.html">Projects</a></li>
+          <li><a href="#">Art</a></li>
+          <li><a href="" style="color: #0088a9;">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <div class="line"></div>
+
+
+    <div class="main">
+
+      <div class="pro1_about">
+        <div class="pro_text">
+          <h2>Contact me</h2><br>
+
+          <div id="submitData">
+
+            <label>First Name</label>
+            <input type="text" id="fName" name="firstname" placeholder="Your name ...">
+
+            <label>Last Name</label>
+            <input type="text" id="lName" name="lastname" placeholder="Your last name ...">
+
+            <label>email</label>
+            <input type="text" id="emailAdd" name="emailAddress" placeholder="Your email address ...">
+
+            <label"subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Add a subject ...">
+
+            <label>Subject</label>
+            <textarea id="message" name="message" placeholder="Write your message ..." style="height:200px;"></textarea>
+
+              <button class="button" id="submitButton" type="submit">
+              Send Message</button>
+            </div>
+
+          </div>
+
+        </div>
+
+    </div>
+
+    <div id="resultArea">
+    </div>
+
+
+    <footer class="foot_about">
+      <a>© Rokon, 2023</a>
+      <ul class="social_links">
+        <li><a href="https://www.linkedin.com/in/mohdrokon/">LinkedIn</a></li>
+        <li><a href="https://github.com/rokon07">Github</a></li>
+      </ul>
+      </nav>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+	<script src="app.js"></script>
+  </body>
+
+</html>

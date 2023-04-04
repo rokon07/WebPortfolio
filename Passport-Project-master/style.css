@@ -1,0 +1,167 @@
+/*
+Author: Mohd Rokon
+Date: 5/27/2020
+Version 1.0
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to left,#4CAF50, #203a43, #0f2027);
+}
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+h2{
+  color: white;
+  margin-left:20px;
+  padding-top: 20px;
+}
+
+.middle{
+  max-width: 1000px;
+  display: flex;
+    margin: 0 auto;
+    
+}
+
+#submitData{
+  min-width:460px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.input label{
+  color: white;
+    display: block;
+    font-size: 25px;
+    margin-left: 20px;
+    line-height: 150%;
+}
+
+input[type=text], select {
+  min-width:200px;
+  width: 85%;
+  padding: 15px;
+  margin: 8px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+input[type=date], select {
+  color: grey;
+  min-width:200px;
+  width: 85%;
+  padding: 15px;
+  margin: 8px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+#status{
+  min-width:200px;
+  width: 85%;
+  padding: 15px;
+  margin: 8px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+#submitButton{
+  font-size : 20px;
+  width: 90%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submitButton:hover {
+  background-color: white;
+  color:black;
+}
+
+#retrieveData{
+  min-width:460px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3px;
+  background-color: grey;
+  width: 30%;
+  border-radius: 10px;
+}
+
+#getButton{
+  font-size : 20px;
+  width: 90%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#getButton:hover {
+  background-color: white;
+  color:black;
+}
+
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+h3{
+  color: Black;
+  text-align: center;
+}
+
+#result{
+  font-size: 20px;
+  background-color: white;
+  width: 82%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.copy{
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: center;
+}

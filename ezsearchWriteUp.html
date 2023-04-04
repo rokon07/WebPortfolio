@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ezsearch Project</title>
+    <link rel="stylesheet" href="style_about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a class="name" href="aboutme.html">Mohd Rokon</a>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="index.html" style="color: #0088a9;">Projects</a></li>
+          <li><a href="#">Art</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <div class="line"></div>
+
+
+    <div class="main">
+
+      <div class="pro1_about">
+        <div class="pro_text">
+          <h2>ezsearchonline.com</h2><br>
+          <a>Ezsearchonline is a web-based application that allows users to search for used and new goods from multiple e-commerce websites in one place where they can be sorted
+            as desired. The application is designed using HTML and CSS and is hosted on AWS with the backend programmed in JavaScript using Node.js framework and Cheerio API.
+
+            The application is designed to scrape e-commerce websites using an HTML parser called Cheerio. The HTML parsed data is used to get individual items, and queries
+            to the e-commerce sites are made using URL manipulation. This allows the application to retrieve data from multiple e-commerce websites and present it to the user
+            in one place. The application also provides sorting options for the user to organize the data as they wish.
+          </a>
+          <br><br>
+          <img src="ezsearch/ezsearch_img.jpg" style="max-width: 1000px; border-radius: 10px;">
+          <br><br><br>
+          <h2>Application process walkthrough</h2>
+          <br>
+          <a href="">
+            1. The user interacts with the application through a web browser and sends an HTTP request to the Load 
+            &nbsp;&nbsp;&nbsp;&nbsp;Balancer. <br>
+            2. The Load Balancer receives the HTTPS request and forwards it to the Web Server running on AWS. <br>
+            3. The Web Server, which is programmed in Node.js and Express.js, handles the request and sends back the 
+            &nbsp;&nbsp;&nbsp;&nbsp;HTML, CSS, and JavaScript files to the user's browser. <br>
+            4. The user interacts with the front-end through the web interface and sends REST API calls to the back-end. <br>
+            5. The back-end, which is also programmed in Node.js and uses the Cheerio API, receives the API calls and 
+            &nbsp;&nbsp;&nbsp;&nbsp;parses the HTML data of the e-commerce websites. <br>
+            6. The back-end then returns the relevant data to the front-end to be displayed to the user. <br>
+            7. The application communicates with the e-commerce websites via URL manipulation to get the data needed 
+            &nbsp;&nbsp;&nbsp;&nbsp;for the user's search.
+          </a>
+          <br><br><br>
+          <h2>System Design & Architecture</h2>
+          <br>
+          <a href="">
+            <img src="ezsearch/ezsearch_SysDesign.jpg" style="max-width: 1000px; border-radius: 10px;">
+            <br><br>
+            The front-end of the application is built using HTML and CSS and is designed to be user-friendly and easy to navigate. The user inputs the item they wish to 
+            search for, and the application sends a request to the backend. The backend retrieves data from the selected e-commerce websites using the Cheerio API and returns the data
+             to the front-end, which displays the data to the user in a table format.
+             <br><br>
+             The back-end of the application is programmed in JavaScript using the Node.js framework. The Cheerio API is used to scrape the e-commerce websites, and the data is processed
+              to remove any irrelevant information. The processed data is then returned to the front-end to be displayed to the user.
+              <br><br>
+              The application is hosted on AWS, which provides a scalable and reliable platform for the application. The use of AWS also allows the application to be easily deployed and managed.
+            </a>
+        </div>
+        <br><br>
+        <a href="https://www.ezsearchonline.com/index.html"><h3> View this project </h3></a>
+    </div>
+    </div>
+
+    <footer class="foot_about_projects">
+      <a href="">© Rokon, 2023</a>
+      <ul class="social_links">
+        <li><a href="https://www.linkedin.com/in/mohdrokon/">LinkedIn</a></li>
+        <li><a href="https://github.com/rokon07">Github</a></li>
+      </ul>
+      </nav>
+    </footer>
+    
+	<script src="app.js"></script>
+  </body>
+
+</html>

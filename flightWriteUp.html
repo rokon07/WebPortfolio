@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flight Pricing Project</title>
+    <link rel="stylesheet" href="style_about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a class="name" href="aboutme.html">Mohd Rokon</a>
+      <nav>
+        <ul class="nav_links">
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="index.html" style="color: #0088a9;">Projects</a></li>
+          <li><a href="#">Art</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <div class="line"></div>
+
+
+    <div class="main">
+
+      <div class="pro1_about">
+        <div class="pro_text">
+          <h2>Flight Pricing Application</h2><br>
+          <a>The Flight Pricing Application is a web-based application that allows users to search for flight prices from all airlines in one place. 
+            The application provides users with a user-friendly interface that is easy to navigate. It was developed using JavaScript, HTML and CSS 
+            programming languages, and the development tools used were Visual Studio Code and Google Chrome. The Skyscanner Flight Search API from 
+            Rapid API was used to provide the necessary flight search results.
+          </a>
+          <br><br>
+          <a href="">
+            The application allows users to input their desired departure city or airport and select the best suitable option of airports to depart from.
+             The user can also select the departure date from the calendar from the departure section. Similarly, the user inputs the arrival city or airport
+              and selects the departure date from the calendar in the arrival section. The results section provides the user with the option to select the desired
+               currency of choice, and the user can then click on the “Search results” button to get the flights.
+               <br><br>
+            Once the user clicks on the "Search results" button, the application uses the Skyscanner Flight Search API to retrieve the flight data based on the user's input. 
+            The flight details are shown in a table that includes the departure date, airlines, price, direct or indirect flight, and the link to the website of the airline to
+             buy tickets. The user can then choose the flight that best suits their needs and buy the tickets directly from the airline's website.
+            <br><br>
+          </a>
+          <img src="flight/app_img.jpg" style="max-width: 1000px; border-radius: 10px;">
+          <br><br><br>
+          <h2>System Design & Architecture</h2>
+          <a href="">
+            <br>
+            The architecture of the Flight Pricing Application follows the client-server model.
+            <br><br>
+            <img src="flight/appSysDesign_img.jpg" style="max-width: 1000px; border-radius: 10px;">
+            <br><br>
+            Front-end:
+            The front-end is the client-side component of the application responsible for presenting the user interface and handling user interactions. It is built using HTML, CSS, and JavaScript.
+            <br><br>
+           Back-end - The back-end is the server-side component of the application responsible for handling user requests, processing data, and returning results. 
+           It is built using Node.js and uses the Skyscanner Flight Search API from Rapid API to fetch flight data.
+            <br><br>
+            Hosting:
+            The Application Tracker is hosted on AWS. AWS provides a scalable and reliable hosting environment that allows the application to be accessed 
+            from anywhere in the world. AWS also provides a variety of tools and services that can be used to monitor and manage the application, ensuring that it 
+            remains available and secure at all times.
+            <br><br>
+            <h2>Scalability and Performance</h2>
+            <br>
+            <a href="">
+                To improve the scalability and performance of the application, the following measures can be taken: <br>
+                1. Caching: The application can cache frequently requested flight data to reduce the number of requests 
+                   &nbsp;&nbsp;&nbsp;&nbsp;made to the Skyscanner Flight Search API. <br>
+                2. Load Balancing: The application can use load balancing to distribute user requests across multiple servers 
+                &nbsp;&nbsp;&nbsp;&nbsp;to improve performance. <br>
+                3. Database Integration: If the application were to store user data, integrating a database would improve 
+                &nbsp;&nbsp;&nbsp;&nbsp;scalability and performance by allowing for easier data retrieval and management.
+            </a>
+        </a>
+        <br><br>
+        </div>
+        <a href="flight/index.html"><h3> View this project </h3></a>
+    </div>
+    </div>
+
+    <footer class="foot_about_projects">
+      <a href="">© Rokon, 2023</a>
+      <ul class="social_links">
+        <li><a href="https://www.linkedin.com/in/mohdrokon/">LinkedIn</a></li>
+        <li><a href="https://github.com/rokon07">Github</a></li>
+      </ul>
+      </nav>
+    </footer>
+    
+	<script src="app.js"></script>
+  </body>
+
+</html>
